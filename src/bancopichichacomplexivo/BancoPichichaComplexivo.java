@@ -25,11 +25,11 @@ public class BancoPichichaComplexivo {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        CuentaAhorro ca = new CuentaAhorro ("2206482169", "Angie" ,"Fuentes") {};
+        CuentaAhorro ca = new CuentaAhorro ("2206482169", "Angie" ,"Fuentes \n") {};
         
-        CuentaCorriente cc = new CuentaCorriente ("2297546318"," Julio", "Chonillo");
+        CuentaCorriente cc = new CuentaCorriente ("2297546318"," Julio", "Chonillo \n");
         
-        CuentaJoven cj = new CuentaJoven( "2209436872", "Romina","Narvaez");
+        CuentaJoven cj = new CuentaJoven( "2209436872", "Romina","Narvaez \n");
         
         List<Cliente> listaCliente = new ArrayList<>();
         listaCliente.add(ca);
